@@ -30,4 +30,4 @@
 
 "TOKEN":{"description":"توكن البوت","value":"","required":true},
 
-"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}}
+"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}},
