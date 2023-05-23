@@ -28,6 +28,6 @@
 
 "TERMUXXXXX":{"description":"كود تيرمكس 5","value":"","required":true},
 
-"TOKEN":{"description":"توكن البوت","value":"","required":true}
+"TOKEN":{"description":"توكن البوت","value":"","required":true},
 
-,"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}}
+"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}}
