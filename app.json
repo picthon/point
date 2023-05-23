@@ -12,7 +12,7 @@
 
 "website":"https://t.me/picth0n","env":
 
-{"APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},
+"APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},
 
 "DEVLO":{"description":"ايدي حساب المطور","value":"","required":true},
 
