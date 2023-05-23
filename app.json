@@ -6,7 +6,7 @@
  
  "stack":"container",
  
- "repository":"https://github.com/picthon/Picthon-UserBot/blob/main/app.json",
+ "repository":"https://github.com/picthon/Picthon-UserBot",
  
  "keywords":[
   
@@ -18,7 +18,7 @@
  
  ],
  
- "website":"https://github.com/picthon/Picthon-UserBot/blob/main/app.json",
+ "website":"https://github.com/picthon/Picthon-UserBot",
  
  "env":{"APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},
 
