@@ -49,12 +49,12 @@ bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
-DEVS = [5159123009]
+DEVS = [5448642653]
 
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@picth0n"))
     except BaseException:
         pass
 
@@ -472,15 +472,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯SOURCE PICTHON⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ CHANNEL -  PICTHON    ※
 
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
+※ VERSION - 1.0 - REVISED   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ DEVELOPER - BLACK.PIC  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯PICTHON POINT⌯───╯
 ''')
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -505,7 +505,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -524,7 +524,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def _(event):
@@ -548,7 +548,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -567,7 +567,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point3'))
@@ -592,7 +592,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -611,7 +611,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython1.on(events.NewMessage(outgoing=False, pattern='/point4'))
@@ -636,7 +636,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -655,7 +655,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
@@ -679,7 +679,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -698,7 +698,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
     
     
     
@@ -724,7 +724,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -743,7 +743,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
@@ -767,7 +767,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -786,7 +786,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython1.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
@@ -811,7 +811,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -830,7 +830,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython1.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 ##########################################
@@ -843,15 +843,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯SOURCE PICTHON⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ CHANNEL -  PICTHON    ※
 
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
+※ VERSION - 1.0 - REVISED   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ DEVELOPER - BLACK.PIC  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯PICTHON POINT⌯───╯
 ''')
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -876,7 +876,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -895,7 +895,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def _(event):
@@ -919,7 +919,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -938,7 +938,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='/point3'))
@@ -963,7 +963,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -982,7 +982,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='/point4'))
@@ -1007,7 +1007,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1026,7 +1026,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython2.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
@@ -1050,7 +1050,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1069,7 +1069,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
     
     
     
@@ -1095,7 +1095,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1114,7 +1114,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython2.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
@@ -1138,7 +1138,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1157,7 +1157,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython2.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
@@ -1182,7 +1182,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython2.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1201,7 +1201,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython2.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython3.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
@@ -1211,15 +1211,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯SOURCE PICTHON⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ CHANNEL -  PICTHON    ※
 
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
+※ VERSION - 1.0 - REVISED   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ DEVELOPER - BLACK.PIC  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯PICTHON POINT⌯───╯
 ''')
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -1244,7 +1244,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1263,7 +1263,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def _(event):
@@ -1287,7 +1287,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1306,7 +1306,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='/point3'))
@@ -1331,7 +1331,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1350,7 +1350,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='/point4'))
@@ -1375,7 +1375,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1394,7 +1394,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython3.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
@@ -1418,7 +1418,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1437,7 +1437,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
     
     
     
@@ -1463,7 +1463,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1482,7 +1482,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython3.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
@@ -1506,7 +1506,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1525,7 +1525,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython3.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
@@ -1550,7 +1550,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython3.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1569,7 +1569,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython3.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython4.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
@@ -1579,15 +1579,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯SOURCE PICTHON⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ CHANNEL -  PICTHON    ※
 
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
+※ VERSION - 1.0 - REVISED   ※
 
-※ 𝗗𝗘𝗩𝗘??𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ DEVELOPER - BLACK.PIC  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯PICTHON POINT⌯───╯
 ''')
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -1612,7 +1612,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1631,7 +1631,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def _(event):
@@ -1655,7 +1655,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1674,7 +1674,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/point3'))
@@ -1699,7 +1699,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1718,7 +1718,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/point4'))
@@ -1743,7 +1743,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1762,7 +1762,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython4.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
@@ -1786,7 +1786,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1805,7 +1805,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
     
     
     
@@ -1831,7 +1831,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1850,7 +1850,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython4.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
@@ -1874,7 +1874,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1893,7 +1893,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython4.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
@@ -1918,7 +1918,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython4.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1937,8 +1937,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
-
+    await sython4.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 @sython5.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
 	
@@ -1947,15 +1946,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯SOURCE PICTHON⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ CHANNEL -  PICTHON    ※
 
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
+※ VERSION - 1.0 - REVISED   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ DEVELOPER - BLACK.PIC  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯PICTHON POINT⌯───╯
 ''')
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -1980,7 +1979,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -1999,7 +1998,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def _(event):
@@ -2023,7 +2022,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2042,7 +2041,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='/point3'))
@@ -2067,7 +2066,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2086,7 +2085,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='/point4'))
@@ -2111,7 +2110,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2130,7 +2129,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython5.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
@@ -2154,7 +2153,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2173,7 +2172,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
     
     
     
@@ -2199,7 +2198,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2218,7 +2217,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 @sython5.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
@@ -2242,7 +2241,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2261,7 +2260,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 @sython5.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
@@ -2286,7 +2285,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await sython5.send_message(event.chat_id, f"**تم الانتهاء من التجميع | PIC**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -2305,7 +2304,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await sython5.send_message(event.chat_id, "**تم الانتهاء من التجميع | PIC**")
 
 
 
