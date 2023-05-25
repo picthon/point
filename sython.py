@@ -65,8 +65,16 @@ async def join_channel(event):
         await sython1(JoinChannelRequest("@d3boot_7"))
     except BaseException:
         pass
-        
-        
+
+
+@sython1.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
+
+
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
@@ -97,7 +105,12 @@ async def join_channel(event):
         pass
 
         
-
+@sython2.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython2(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
         
 
 @sython2.on(events.NewMessage)
@@ -133,6 +146,14 @@ async def join_channel(event):
         await sython3(JoinChannelRequest("@d3boot_7"))
     except BaseException:
         pass
+
+
+@sython3.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython3(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
         
         
 @sython3.on(events.NewMessage)
@@ -166,7 +187,12 @@ async def join_channel(event):
         pass
 
         
-
+@sython4.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython4(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
         
 
 @sython4.on(events.NewMessage)
@@ -204,7 +230,12 @@ async def join_channel(event):
         pass
 
         
-
+@sython5.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython5(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
         
 
 @sython5.on(events.NewMessage)
